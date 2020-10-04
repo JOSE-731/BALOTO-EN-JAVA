@@ -392,6 +392,15 @@ public class Interfaz extends javax.swing.JFrame {
         //Variable que guarda el dinero que se le otorga al ganador
         int granPremio=300000000;
         
+        //Creando numeros random
+        Numeroganador[0]= Num_ganador.nextInt(9);
+        Numeroganador[1]= Num_ganador.nextInt(9);
+        Numeroganador[2]= Num_ganador.nextInt(9);
+        
+        
+        //Creando numeros random
+        
+        
         //Vector donde se almacenan los 6 numero que elige el usuario
         numero_usuario[0] = Integer.parseInt(bola1.getText());
         numero_usuario[1] = Integer.parseInt(bola2.getText());
