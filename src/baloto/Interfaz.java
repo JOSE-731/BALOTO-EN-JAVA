@@ -380,6 +380,7 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    //Este es el metodo que se ejecuta cuando se presiona el boton jugar
     private void btnJugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJugarActionPerformed
         //Clase random para numeros aleatorios
         Random Num_ganador = new Random();
