@@ -449,8 +449,10 @@ public class Interfaz extends javax.swing.JFrame {
                 premio.setText("Felicidades, usted ganó: $"+pago2);
                 premio.setText("Acertó en 5 numeros");
             } else {
+                premio.setText("No recibio ningun premio, siga intentando");
+            }
+        } else {
             mensaje.setText("ERROR, DIGITE UN NUMERO ENTRE LOS RANGOS 0-99");
-        }
         }
     }//GEN-LAST:event_btnJugarActionPerformed
 
