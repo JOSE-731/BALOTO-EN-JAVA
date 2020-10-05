@@ -495,6 +495,8 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_bola1KeyTyped
 
+    
+    //Los siguientes metodos son evento de teclado, este evento solo deja ingresar caracteres numericos
     private void bola2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_bola2KeyTyped
         char tecla = evt.getKeyChar();
         JTextField campo = (JTextField) evt.getSource();
