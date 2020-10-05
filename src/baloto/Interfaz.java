@@ -446,11 +446,11 @@ public class Interfaz extends javax.swing.JFrame {
                 premio.setText("Felicidades, usted ganó: $"+pago1);
                 premio.setText("Acertó en 3 numeros");
             }else if(numero_usuario[0] == Numeroganador[0] && numero_usuario[1] == Numeroganador[1] && numero_usuario[2] == Numeroganador[2] && numero_usuario[3] == Numeroganador[3] && numero_usuario[4] == Numeroganador[4]){
-                 premio.setText("Felicidades, usted ganó: $"+pago2);
-            }
-
-        } else {
+                premio.setText("Felicidades, usted ganó: $"+pago2);
+                premio.setText("Acertó en 5 numeros");
+            } else {
             mensaje.setText("ERROR, DIGITE UN NUMERO ENTRE LOS RANGOS 0-99");
+        }
         }
     }//GEN-LAST:event_btnJugarActionPerformed
 
