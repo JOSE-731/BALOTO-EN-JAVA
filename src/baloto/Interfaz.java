@@ -434,7 +434,7 @@ public class Interfaz extends javax.swing.JFrame {
         resbol6.setText(Numeroganador[5] + "");
         
         //Validando campos vacios
-        if (bola1.getText().isEmpty() || bola2.getText().isEmpty() || bola3.getText().isEmpty() || bola4.getText().isEmpty() || bola5.getText().isEmpty() || bola6.getText().isEmpty()){
+        if (bola1.equals("") || bola2.equals("") || bola3.equals("") || bola4.equals("") || bola5.equals("") || bola6.equals("")){
             JOptionPane.showMessageDialog(null,"Rellene todos los campos");
         }
         //Hacemos las condiciones  a los numeros que ingresa el usuarios
