@@ -600,6 +600,9 @@ public class Interfaz extends javax.swing.JFrame {
         bola5.setText(null);
         bola6.setText(null);
         
+        //Codigo para eliminar por pantalla el campo que le informa al usuario si gano o no
+        premio.setText(null);
+        
           
           
           
