@@ -400,12 +400,12 @@ public class Interfaz extends javax.swing.JFrame {
         double pago2 = granPremio * 0.6;
         
         //Creando numeros random
-        Numeroganador[0]= Num_ganador.nextInt(9);
-        Numeroganador[1]= Num_ganador.nextInt(9);
-        Numeroganador[2]= Num_ganador.nextInt(9);
-        Numeroganador[3]= Num_ganador.nextInt(9);
-        Numeroganador[4]= Num_ganador.nextInt(9);
-        Numeroganador[5]= Num_ganador.nextInt(9);
+        Numeroganador[0]= Num_ganador.nextInt(99);
+        Numeroganador[1]= Num_ganador.nextInt(99);
+        Numeroganador[2]= Num_ganador.nextInt(99);
+        Numeroganador[3]= Num_ganador.nextInt(99);
+        Numeroganador[4]= Num_ganador.nextInt(99);
+        Numeroganador[5]= Num_ganador.nextInt(99);
         
         //Probando numeros random
         System.out.println(""+Numeroganador[3]);
