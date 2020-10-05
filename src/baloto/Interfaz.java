@@ -390,7 +390,7 @@ public class Interfaz extends javax.swing.JFrame {
         int[] Numeroganador = new int[6];
         
         //Variable que guarda el dinero que se le otorga al ganador
-        int granPremio=300000000;
+        double granPremio=300000000;
         
         //Creando numeros random
         Numeroganador[0]= Num_ganador.nextInt(9);
@@ -426,6 +426,8 @@ public class Interfaz extends javax.swing.JFrame {
         resbol5.setText(Numeroganador[4] + "");
         resbol6.setText(Numeroganador[5] + "");
         
+        
+        //Hacemos las condiciones
         if (numero_usuario[0] >= 0 && numero_usuario[0] <= 99 && numero_usuario[1] >= 0 && numero_usuario[1] <= 99 && numero_usuario[2] >= 0 && numero_usuario[2] <= 99 && numero_usuario[3] >= 0 && numero_usuario[3] <= 99 && numero_usuario[4] >= 0 && numero_usuario[4] <= 99 && numero_usuario[5] >= 0 && numero_usuario[5] <= 99) {
             
             if (numero_usuario[0] == Numeroganador[0] && numero_usuario[1] == Numeroganador[1] && numero_usuario[2] == Numeroganador[2] && numero_usuario[3] == Numeroganador[3] && numero_usuario[4] == Numeroganador[4] && numero_usuario[5] == Numeroganador[5]) {
