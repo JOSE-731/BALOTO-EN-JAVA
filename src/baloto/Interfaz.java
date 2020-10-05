@@ -88,6 +88,11 @@ public class Interfaz extends javax.swing.JFrame {
         });
 
         bola3.setBackground(new java.awt.Color(255, 255, 0));
+        bola3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bola3ActionPerformed(evt);
+            }
+        });
         bola3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 bola3KeyTyped(evt);
@@ -95,6 +100,11 @@ public class Interfaz extends javax.swing.JFrame {
         });
 
         bola4.setBackground(new java.awt.Color(255, 255, 0));
+        bola4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bola4ActionPerformed(evt);
+            }
+        });
         bola4.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 bola4KeyTyped(evt);
@@ -109,6 +119,11 @@ public class Interfaz extends javax.swing.JFrame {
         });
 
         bola6.setBackground(new java.awt.Color(255, 0, 0));
+        bola6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bola6ActionPerformed(evt);
+            }
+        });
         bola6.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 bola6KeyTyped(evt);
@@ -576,8 +591,31 @@ public class Interfaz extends javax.swing.JFrame {
        resbol4.setText(null);
        resbol5.setText(null);
        resbol6.setText(null);
+       
+        //Codigo para limpiar los campos de los numeros que ingresa el usuario
+        bola1.setText(null);
+        bola2.setText(null);
+        bola3.setText(null);
+        bola4.setText(null);
+        bola5.setText(null);
+        bola6.setText(null);
+        
+          
+          
           
     }//GEN-LAST:event_btnJugar1ActionPerformed
+
+    private void bola3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bola3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bola3ActionPerformed
+
+    private void bola4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bola4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bola4ActionPerformed
+
+    private void bola6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bola6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bola6ActionPerformed
 
     /**
      * @param args the command line arguments
