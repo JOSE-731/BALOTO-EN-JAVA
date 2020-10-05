@@ -435,8 +435,8 @@ public class Interfaz extends javax.swing.JFrame {
         
         //Validando campos vacios
         if (bola1.getText().isEmpty() && bola2.getText().isEmpty() && bola3.getText().isEmpty() && bola4.getText().isEmpty() && bola5.getText().isEmpty() && bola6.getText().isEmpty()){
-            
-        }
+            JOptionPane.showMessageDialog(null, "Rellene todos los campos");
+        }else{
         //Hacemos las condiciones  a los numeros que ingresa el usuarios
         if (numero_usuario[0] >= 0 && numero_usuario[0] <= 99 && numero_usuario[1] >= 0 && numero_usuario[1] <= 99 && numero_usuario[2] >= 0 && numero_usuario[2] <= 99 && numero_usuario[3] >= 0 && numero_usuario[3] <= 99 && numero_usuario[4] >= 0 && numero_usuario[4] <= 99 && numero_usuario[5] >= 0 && numero_usuario[5] <= 99) {
             
@@ -448,7 +448,7 @@ public class Interfaz extends javax.swing.JFrame {
         } else {
             mensaje.setText("ERROR, DIGITE UN NUMERO ENTRE LOS RANGOS 0-99");
         }
-
+        }
     }//GEN-LAST:event_btnJugarActionPerformed
 
     private void resbol1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resbol1ActionPerformed
