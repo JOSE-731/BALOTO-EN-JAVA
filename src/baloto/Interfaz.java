@@ -392,6 +392,8 @@ public class Interfaz extends javax.swing.JFrame {
         //Variable que guarda el dinero que se le otorga al ganador
         double granPremio=300000000;
         
+        //Variable del premio si acierta en 3 numeeros
+        
         //Creando numeros random
         Numeroganador[0]= Num_ganador.nextInt(9);
         Numeroganador[1]= Num_ganador.nextInt(9);
