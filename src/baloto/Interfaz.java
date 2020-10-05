@@ -2,6 +2,7 @@ package baloto;
 
 import java.awt.Toolkit;
 import java.util.Random;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 /**
@@ -432,12 +433,16 @@ public class Interfaz extends javax.swing.JFrame {
         resbol5.setText(Numeroganador[4] + "");
         resbol6.setText(Numeroganador[5] + "");
         
-        
+        //Validando campos vacios
+        if (bola1.getText().isEmpty() && bola2.getText().isEmpty() && bola3.getText().isEmpty() && bola4.getText().isEmpty() && bola5.getText().isEmpty() && bola6.getText().isEmpty()){
+            
+        }
         //Hacemos las condiciones  a los numeros que ingresa el usuarios
         if (numero_usuario[0] >= 0 && numero_usuario[0] <= 99 && numero_usuario[1] >= 0 && numero_usuario[1] <= 99 && numero_usuario[2] >= 0 && numero_usuario[2] <= 99 && numero_usuario[3] >= 0 && numero_usuario[3] <= 99 && numero_usuario[4] >= 0 && numero_usuario[4] <= 99 && numero_usuario[5] >= 0 && numero_usuario[5] <= 99) {
             
             if (numero_usuario[0] == Numeroganador[0] && numero_usuario[1] == Numeroganador[1] && numero_usuario[2] == Numeroganador[2] && numero_usuario[3] == Numeroganador[3] && numero_usuario[4] == Numeroganador[4] && numero_usuario[5] == Numeroganador[5]) {
                 premio.setText("Felicidades, usted ganó: $"+granPremio);
+                
             }
 
         } else {
