@@ -393,6 +393,7 @@ public class Interfaz extends javax.swing.JFrame {
         double granPremio=300000000;
         
         //Variable del premio si acierta en 3 numeeros
+        double pago1 = granPremio * 0.3;
         
         //Creando numeros random
         Numeroganador[0]= Num_ganador.nextInt(9);
