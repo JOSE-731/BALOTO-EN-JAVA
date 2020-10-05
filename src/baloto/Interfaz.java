@@ -415,8 +415,6 @@ public class Interfaz extends javax.swing.JFrame {
         
         
         //Creando numeros random
-        
-        
         //Vector donde se almacenan los 6 numero que elige el usuario
         numero_usuario[0] = Integer.parseInt(bola1.getText());
         numero_usuario[1] = Integer.parseInt(bola2.getText());
@@ -438,7 +436,8 @@ public class Interfaz extends javax.swing.JFrame {
         if (bola1.equals("") || bola2.equals("") || bola3.equals("") || bola4.equals("") || bola5.equals("") || bola6.equals("")){
             JOptionPane.showMessageDialog(null,"Rellene todos los campos");
         }
-        //Hacemos las condiciones  a los numeros que ingresa el usuarios
+        
+        //Hacemos las condiciones  a los numeros que ingresa el usuario
         if (numero_usuario[0] >= 0 && numero_usuario[0] <= 99 && numero_usuario[1] >= 0 && numero_usuario[1] <= 99 && numero_usuario[2] >= 0 && numero_usuario[2] <= 99 && numero_usuario[3] >= 0 && numero_usuario[3] <= 99 && numero_usuario[4] >= 0 && numero_usuario[4] <= 99 && numero_usuario[5] >= 0 && numero_usuario[5] <= 99) {
             
             if (numero_usuario[0] == Numeroganador[0] && numero_usuario[1] == Numeroganador[1] && numero_usuario[2] == Numeroganador[2] && numero_usuario[3] == Numeroganador[3] && numero_usuario[4] == Numeroganador[4] && numero_usuario[5] == Numeroganador[5]) {
@@ -457,6 +456,7 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnJugarActionPerformed
 
+    //Los siguientes metodos son aquellos que se crean por defecto 
     private void resbol1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resbol1ActionPerformed
         resbol1.getText();
     }//GEN-LAST:event_resbol1ActionPerformed
